@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bilateral Stimulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style media="screen">
+    body {
+      background: lightgray;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      left: 46%;
+      right: auto;
+      border-radius: 50%;
+      background-color: black;
+      position: relative;
+      /* animation-name: slide;
+      animation-duration: 1.25s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; */
+    }
+
+    /* .anim {
+      animation-name: slide;
+      animation-duration: 1.25s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-play-state: running;
+    }
+
+    .stop {
+      width: 100px;
+      height: 100px;
+      left: 46%;
+      right: auto;
+      border-radius: 50%;
+      background-color: black;
+    } */
+
+    @keyframes slide {
+      0%   {left:50%;}
+      25%  {left:90%;}
+      50%  {left:50%;}
+      75%  {left:0%;}
+      100% {left:50%;}
+    }
+    </style> -->
+  </head>
+  <body>
+    <br><br>
+
+    <div id="circle"></div>
+
+    <button id="start" onclick="animate()">Start</button>
+    <button id="stop" onclick="pause()">Stop</button>
+
+    <!-- <script type="text/javascript">
+    function animate() {
+      // var targetElement = document.getElementById("circle");
+      // targetElement.className = "anim";
+      document.getElementById("circle").style.animation = "slide 1.25s infinite";
+    }
+    </script> -->
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
